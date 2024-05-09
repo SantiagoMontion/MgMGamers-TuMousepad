@@ -1,0 +1,135 @@
+.story-telling-container {
+  padding-top: 280px;
+  padding-bottom: 180px;
+  width: 100%;
+}
+
+.title-1 {
+  color: #fff;
+  font-family: Bebas Neue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.text-mgm {
+  color: #fff;
+  font-family: "League Spartan";
+
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  margin-top: 40px;
+}
+
+.process {
+  padding-top: 150px;
+}
+
+.bracket {
+  color: #f58220;
+  font-size: 400px;
+  font-weight: 100;
+}
+
+.phrase-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: -140px;
+  padding-right: 65px;
+  padding-left: 65px;
+}
+
+.phrase-text {
+  color: #fff;
+  font-family: League Spartan;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3px;
+  margin-top: 130px;
+}
+
+.t-b {
+  color: #f58220;
+}
+
+.home-3-button {
+  background-color: #f58220;
+  border-radius: 20px;
+  border: none;
+  padding: 16px 120px 16px 120px;
+  color: #252525;
+  font-family: "League Spartan";
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.home-3-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#text-mobile {
+  display: none;
+}
+#text-pc {
+  display: block;
+}
+
+@media only screen and (max-width: 890px) {
+  .story-telling-container {
+    padding-top: 150px;
+  }
+
+  .title-1 {
+    font-size: 34px;
+  }
+
+  .text-mgm {
+    font-size: 22px;
+  }
+
+  #text-mobile {
+    display: block;
+  }
+  #text-pc {
+    display: none;
+  }
+
+  .home-3-button {
+    padding: 16px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .home-3-button-container {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .bracket {
+    display: none;
+  }
+
+  .phrase-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .phrase-text {
+    margin-top: 80px;
+    font-size: 35px;
+    margin-bottom: 80px;
+  }
+}

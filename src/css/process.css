@@ -1,0 +1,123 @@
+.process-container {
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 150px;
+}
+
+.title-1-process {
+  color: #f58220;
+  font-family: Bebas Neue;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+
+.process-steps-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.process-step {
+  flex: 0 0 calc(33.33%);
+
+  margin-bottom: 50px;
+}
+
+.step-title {
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.photo-step {
+  width: 100%;
+  padding: 10px;
+}
+
+.photo-step-material {
+  width: 100%;
+}
+
+.process-button {
+  background-color: #f58220;
+  border-radius: 20px;
+  border: none;
+  padding: 16px 120px 16px 120px;
+  color: #252525;
+  font-family: "League Spartan";
+  font-weight: 600;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.process-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+#materiales {
+  margin-top: 50px;
+}
+
+.material-step {
+  padding: 10px;
+  background-color: #252525;
+  border-radius: 20px;
+  height: 92%;
+  margin-bottom: 0px !important;
+}
+
+.material-text {
+  font-family: "League Spartan";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+  margin-top: 20px;
+}
+
+#mat {
+  margin: 0px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 890px) {
+  .process-container {
+    padding: 40px;
+  }
+  .process-step {
+    flex-basis: calc(100%);
+  }
+
+  .photo-step {
+    padding: 0px;
+  }
+  .title-1-process {
+    font-size: 38px;
+  }
+  .step-title {
+    font-size: 32px;
+  }
+
+  .process-button {
+    padding: 16px;
+  }
+  #mat {
+    padding: 0px;
+    margin-bottom: 55px;
+  }
+}

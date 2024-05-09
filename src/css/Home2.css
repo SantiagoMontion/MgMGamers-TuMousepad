@@ -1,0 +1,57 @@
+.fake-navbar {
+  width: 100%;
+  border-radius: 20px 20px 0px 0px;
+  border: 2px solid #000;
+  background: #af5000;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+
+.left {
+  display: flex;
+  gap: 5px;
+  color: #7d3900;
+}
+
+.center {
+  color: #fff;
+  text-align: center;
+  font-family: League Spartan;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+}
+
+.right-icon {
+  width: 30px;
+  height: 30px;
+  color: #602b00;
+}
+
+.photos-background {
+  border-radius: 0px 0px 20px 20px;
+  padding: 10px;
+  border: 2px solid #000;
+  background: #f58220;
+  width: 100%;
+}
+
+.photo {
+  border-radius: 20px;
+  height: auto;
+}
+
+.photos-right {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
