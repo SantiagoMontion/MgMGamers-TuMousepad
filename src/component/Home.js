@@ -48,7 +48,9 @@ function Home() {
               href="https://tu-mousepad-personalizado.mgmgamers.store/"
               target="_blank"
               className="home-fake-icon"
-            ></a>
+            >
+              ▶
+            </a>
           </div>
         </div>
         <Home3></Home3>

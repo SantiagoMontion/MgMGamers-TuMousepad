@@ -50,7 +50,7 @@ function Faq() {
 
         <FAQItem
           question="¿Hacen envíos internacionales?"
-          answer={`Obvio 😎  trabajamos con la empresa DHL para hacer llegar el pedido a\n tus manos. Háblanos para cotizar el envío (30usd aproximadamente) 🚀`}
+          answer={`Si 😎 trabajamos con la empresa DHL para hacer llegar el pedido a\n tus manos. Háblanos para cotizar el envío (30usd aproximadamente) 🚀`}
         />
 
         <FAQItem
