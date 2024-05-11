@@ -21,7 +21,7 @@
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 34px;
   letter-spacing: 1.5px;
   margin-top: 40px;
 }
@@ -90,10 +90,11 @@
 @media only screen and (max-width: 890px) {
   .story-telling-container {
     padding-top: 150px;
+    padding-bottom: 100px;
   }
 
   .title-1 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .text-mgm {
@@ -102,6 +103,7 @@
 
   #text-mobile {
     display: block;
+    
   }
   #text-pc {
     display: none;
@@ -123,13 +125,14 @@
   }
 
   .phrase-container {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .phrase-text {
     margin-top: 80px;
     font-size: 35px;
     margin-bottom: 80px;
+    line-height: 40px;
   }
 }

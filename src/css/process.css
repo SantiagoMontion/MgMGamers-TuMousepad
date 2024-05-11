@@ -97,7 +97,7 @@
 
 @media only screen and (max-width: 890px) {
   .process-container {
-    padding: 40px;
+    padding: 30px;
   }
   .process-step {
     flex-basis: calc(100%);

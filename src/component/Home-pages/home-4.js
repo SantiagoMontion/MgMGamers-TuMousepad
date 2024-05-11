@@ -75,27 +75,15 @@ function Home4() {
 
         <div className="process-steps-container">
           <div className="process-step">
-            <VideoPlayer
-              video={testimonies1}
-              autoplay={true}
-              controls={false}
-            />
+            <VideoPlayer video={testimonies1} autoplay={true} controls={true} />
           </div>
 
           <div className="process-step">
-            <VideoPlayer
-              video={testimonies2}
-              autoplay={true}
-              controls={false}
-            />
+            <VideoPlayer video={testimonies2} autoplay={true} controls={true} />
           </div>
 
           <div className="process-step">
-            <VideoPlayer
-              video={testimonies3}
-              autoplay={true}
-              controls={false}
-            />
+            <VideoPlayer video={testimonies3} autoplay={true} controls={true} />
           </div>
         </div>
       </div>

@@ -131,7 +131,7 @@
   border: none;
   padding: 0;
   cursor: pointer;
-  width: 22%;
+  width: 26%;
   height: 100%;
   border: 2px solid #151515;
   transition: transform 0.3s ease-in-out;
@@ -143,8 +143,9 @@
 
 @media only screen and (max-width: 890px) {
   .home-container {
-    padding: 40px;
+    padding: 30px;
     padding-top: 60px;
+    padding-left: 30px;
   }
 
   .home-title {
@@ -167,6 +168,7 @@
     width: 90%;
     margin-top: 10px;
     margin-bottom: 30px;
+    padding: 15px;
   }
   .fake-search-bar {
     width: 100%;
@@ -174,8 +176,9 @@
     margin-top: 15px;
   }
   .home-fake-text {
-    font-size: 20px;
+    font-size: 22px;
     text-align: left;
     width: 75%;
+    padding-right: 55px;
   }
 }
