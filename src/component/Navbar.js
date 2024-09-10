@@ -86,13 +86,7 @@ function Navbar() {
       </div>
 
       <div className="navbar-right-container">
-        <a
-          href="https://sites.google.com/view/mgmgamersblog/inicio"
-          target="_blank"
-          className="navbar-link"
-        >
-          Blog
-        </a>
+        
         <a
           href="https://mgmgamers.store/"
           target="_blank"

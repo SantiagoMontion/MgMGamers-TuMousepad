@@ -17,6 +17,9 @@
 .scrolled {
   background-color: #151515d3;
 }
+.navbar-logo {
+  width: 118px;
+}
 
 .navbar-left-container {
   flex: 1;
@@ -45,17 +48,17 @@
 
 .navbar-link-button {
   border-radius: 35px;
-  background: #f58220;
+  background: #edecea;
   backdrop-filter: blur(2px);
   justify-content: center;
   align-items: center;
   display: flex;
   padding: 12px 50px;
-  color: #fff;
+  color: #181818;
 }
 
 .navbar-link {
-  color: #f58220;
+  color: #edecea;
   font-family: League Spartan;
   font-size: 18px;
   font-style: normal;
@@ -66,7 +69,7 @@
 }
 
 .navbar-link:hover {
-  color: white;
+  transform: scale(1.08);
 }
 
 .navbar-logo:hover {
