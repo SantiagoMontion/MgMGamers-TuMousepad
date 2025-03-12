@@ -55,7 +55,7 @@ function Faq() {
 
         <FAQItem
           question="¿Son mayoristas?"
-          answer={`¡Si! Podes acceder a un 30% off a partir de las 10 unidades. Para\n calcularlo entra a www.mgmgamers.store y restas el 30% a las medidas \nque quieras. El envío se calcula el día a despachar 🙌`}
+          answer={`¡Si! Podes acceder a un 30% off a partir de las 100 unidades. Para\n calcularlo entra a www.mgmgamers.store y restas el 30% a las medidas \nque quieras. El envío se calcula el día a despachar 🙌`}
         />
       </div>
     </div>
